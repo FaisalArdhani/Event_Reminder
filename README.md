@@ -64,4 +64,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Designed and developed by [Faisal Ardhani](https://github.com/FaisalArdhani).
-```
