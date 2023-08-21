@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Event Reminder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Event Reminder App](overview.png)
 
-## Available Scripts
+Event Reminder App is a simple web application built with TypeScript and React that allows users to manage and keep track of their upcoming events and reminders.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Add new reminders with a title, date, time, and description.
+- View a list of reminders sorted by date and time.
+- Delete reminders when they are no longer needed.
+- User-friendly interface for a seamless experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To run this project locally, follow these steps:
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/event-reminder-app.git
+   cd event-reminder-app
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open your browser and navigate to http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Click the "Add Reminder" button to open the reminder creation form.
+- Fill in the details for your event, including the title, date, time, and description.
+- Click "Submit" to add the reminder to your list.
+- To remove a reminder, click the delete button on the reminder card.
+- You can toggle the reminder creation form by clicking the "Add Reminder" button again or using the cancel button.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Reminder Form](PopUp.png)
+![Reminder List](List.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+- CSS: Styling and layout.
+- [Add other technologies used...]
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are welcome! If you find a bug or want to add a new feature, please open an issue or submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Designed and developed by [Faisal Ardhani](https://github.com/FaisalArdhani).
+```
